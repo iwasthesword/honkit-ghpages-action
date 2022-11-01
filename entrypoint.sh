@@ -57,6 +57,8 @@ BUILD() {
 
     cd $DIR
 
+    npm run build
+
     npx honkit build
 }
 
